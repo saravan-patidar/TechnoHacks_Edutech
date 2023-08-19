@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/2e6bcb221f.js" crossorigin="anonymous"></script>
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" id="registration-form">
+            <h2>Sign Up</h2>
+
+            <div class="input-box">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="username" name="username" placeholder="Enter UserName">
+            </div>
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="Enter Email">
+            </div>
+            <div class="input-box">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" id="number" name="number" placeholder="Enter Number">
+            </div>
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="password" name="password" placeholder="Enter Password">
+            </div>
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password">
+            </div>
+            <button type="submit">Register</button>
+
+            <div id="output-box"></div>
+            <div class="popup" id="popup">
+                <i class="fa-sharp fa-solid fa-check"></i>
+                <h2>Thank you!!</h2>
+                <p>You were registration successfully thanks. </p>
+                <button id="close">OK</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

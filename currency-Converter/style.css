@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(181, 41, 16),rgb(72, 73, 140));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif,;
+
+    backdrop-filter:blur(3px);
+    backdrop-filter:saturate(2);
+
+    background-image: url(./download.jfif);
+    background-size: cover;
+    background-position:center ;
+}
+.container{
+    background-color:#84859495;/*#fcc96b83; */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+}
+.input-container,
+.output-container{
+    padding: 1rem .5rem;
+    display: flex;
+    gap: 10px;
+}
+select,input{
+    background:linear-gradient(to right,#968547 2% , #fcc96bda);
+    border: none;
+    padding: .6rem 0;
+    border-radius:.3rem;
+    width: 50%;
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 700;
+    box-shadow: 0 0 2px rgb(0,0,0,0.2);
+}
+.swapping-curr{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    margin: .2rem;
+    padding: .2rem .3rem;
+    border-radius: 5px;
+    /* background: rgba(234, 60, 60, 0.866); */
+    background:#DC7726;
+    border: 1px solid transparent;
+    font-weight: 600;
+}
+.btn:hover,
+.btn:active{
+    background:#dc6707;
+    color: #fff;
+    border: 1px solid #c3661b;
+}
+#rate{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+}
+#result{
+    width: 50%;
+    padding: .5rem;
+}
+option{
+    background-color: darkgray;
+}
+
+
+@media (max-width:1200px){
+    
+}
